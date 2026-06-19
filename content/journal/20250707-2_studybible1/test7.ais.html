@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>スタディーバイブル・フォーマット (Paged.js適用版)</title>
+    <style>
+        /* Paged.jsが読み込まれると、画面表示が印刷プレビューのようになります */
+        
+        /* CSS変数を定義 */
+        :root {
+            --header-footer-margin: 3em; /* ヘッダーとフッターの高さに相当する余白 */
+            --border-thickness: 1px;
+            --border-style: solid;
+            --border-color: #333;
+        }
+
+        body {
+            font-family: "Noto Serif JP", "Noto Sans JP", serif;
+        }
+
+        /* ページの基本設定 */
+        @page {
+            /* ページのサイズや余白を設定 */
+            size: A4; /* 用紙サイズを指定できます */
+            margin: 20mm 15mm; /* 上下 左右 の余白 */
+
+            /* ヘッダーとフッターのための領域を確保 */
+            margin-top: var(--header-footer-margin);
+            margin-bottom: var(--header-footer-margin);
+
+            /* Paged.jsでヘッダーとフッターを定義 */
+            /* @top-center, @bottom-right など、9つの領域にコンテンツを配置できます */
+
+            /* ヘッダー領域 */
+            @top-left {
+                content: "ヨハネの福音書 1:43–51\A test"; /* \A で改行 */
+                white-space: pre-wrap; /* 改行を有効にする */
+                font-size: 0.9em;
+                padding-bottom: 0.5em;
+                border-bottom: var(--border-thickness) var(--border-style) var(--border-color);
+                width: 100%;
+            }
+            @top-right {
+                content: "Page " counter(page); /* ここでページ番号を自動生成！ */
+                font-size: 0.9em;
+                padding-bottom: 0.5em;
+                border-bottom: var(--border-thickness) var(--border-style) var(--border-color);
+                width: 100%;
+                text-align: right; /* 右寄せ */
+            }
+
+            /* フッター領域 */
+            @bottom-left {
+                content: "Page " counter(page); /* フッターにもページ番号を配置 */
+                font-size: 0.9em;
+                padding-top: 0.5em;
+                border-top: var(--border-thickness) var(--border-style) var(--border-color);
+                width: 100%;
+            }
+            @bottom-right {
+                content: "study bible (test ver.)\A test";
+                white-space: pre-wrap;
+                font-size: 0.9em;
+                text-align: right;
+                padding-top: 0.5em;
+                border-top: var(--border-thickness) var(--border-style) var(--border-color);
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+        Paged.jsを使うと、ヘッダーとフッターはCSSで生成されるため、
+        HTMLの<header>と<footer>タグは不要になります。
+    -->
+
+    <!-- 本文 -->
+    <main style="padding: 0 2em;">
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+        <p>この部分は聖書本文や注解が入るエリアです。Paged.jsを導入したことで、ブラウザの画面上でページが自動的に分割され、各ページにヘッダーとフッターが正しく表示されます。</p>
+        <p style="height: 150vh;">（ページの長さを擬似的に伸ばして、複数ページになることを確認するための要素です）</p>
+        <p>2ページ目のコンテンツです。</p>
+        <p>さらにコンテンツを追加して3ページ目にいくか試してみましょう。</p>
+        <p style="page-break-before: always;">ここで強制的に改ページします。</p>
+        <p>3ページ目のコンテンツです。</p>
+    </main>
+    
+    <!-- Paged.js の読み込み（bodyの最後に配置するのが一般的です） -->
+    <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+
+</body>
+</html>

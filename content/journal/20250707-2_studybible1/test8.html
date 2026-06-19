@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>スタディーバイブル・Paged.js対応</title>
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+  <style>
+    @page {
+      margin: 20mm 15mm 20mm 15mm;
+
+      @top-center {
+        content: "ヨハネの福音書 1:43–51 - Page " counter(page);
+        border-bottom: 1px solid #333;
+        padding-bottom: 4pt;
+      }
+
+      @bottom-center {
+        content: "study bible (test ver.) - Page " counter(page);
+        border-top: 1px solid #333;
+        padding-top: 4pt;
+      }
+    }
+
+    body {
+      font-family: "Noto Serif JP", serif;
+      font-size: 11pt;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    main {
+      padding: 0 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+    <p>この部分は聖書本文や注解が入るエリアです。印刷プレビューで確認すると、各ページにヘッダーとフッターが固定で表示されるのがわかります。</p>
+    <p style="height: 150vh;">（ページの長さを擬似的に伸ばして、複数ページになることを確認するための要素です）</p>
+    <p>2ページ目のコンテンツです。</p>
+  </main>
+
+</body>
+</html>
