@@ -1,0 +1,1210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<head>
+<meta content="9780310106487" name="dtb:uid"/>
+<meta content="2" name="dtb:depth"/>
+<meta content="0" name="dtb:totalPageCount"/>
+<meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle>
+<text>Understanding Old Testament Theology: Mapping the Terrain of Recent Approaches</text>
+</docTitle>
+<navMap>
+<navPoint id="acid0001" playOrder="1">
+<navLabel>
+<text>Cover Page</text>
+</navLabel>
+<content src="cover.xhtml"/>
+</navPoint>
+<navPoint id="acid0002" playOrder="2">
+<navLabel>
+<text>Title Page</text>
+</navLabel>
+<content src="titlepage.xhtml"/>
+</navPoint>
+<navPoint id="acid0003" playOrder="3">
+<navLabel>
+<text>Copyright Page</text>
+</navLabel>
+<content src="copyright-page.xhtml"/>
+</navPoint>
+<navPoint id="acid0004" playOrder="4">
+<navLabel>
+<text>Dedication</text>
+</navLabel>
+<content src="dedication.xhtml"/>
+</navPoint>
+<navPoint id="acid0005" playOrder="5">
+<navLabel>
+<text>Contents</text>
+</navLabel>
+<content src="contents.xhtml"/>
+</navPoint>
+<navPoint id="acid0006" playOrder="6">
+<navLabel>
+<text>Preface</text>
+</navLabel>
+<content src="chapter01.xhtml"/>
+</navPoint>
+<navPoint id="acid0007" playOrder="7">
+<navLabel>
+<text>Introduction</text>
+</navLabel>
+<content src="chapter02.xhtml"/>
+</navPoint>
+<navPoint id="acid0008" playOrder="8">
+<navLabel>
+<text>Part 1: History</text>
+</navLabel>
+<content src="part01.xhtml"/>
+<navPoint id="acid0009" playOrder="9">
+<navLabel>
+<text>1. Old Testament Theology Grounded In Biblical (Hi)story</text>
+</navLabel>
+<content src="chapter03.xhtml"/>
+</navPoint>
+<navPoint id="acid0010" playOrder="10">
+<navLabel>
+<text>2. Historical-Critical Old Testament Theology</text>
+</navLabel>
+<content src="chapter04.xhtml"/>
+</navPoint>
+</navPoint>
+<navPoint id="acid0011" playOrder="11">
+<navLabel>
+<text>Part 2: Theme</text>
+</navLabel>
+<content src="part02.xhtml"/>
+<navPoint id="acid0012" playOrder="12">
+<navLabel>
+<text>3. Multiplex Thematic Old Testament Theology</text>
+</navLabel>
+<content src="chapter05.xhtml"/>
+</navPoint>
+<navPoint id="acid0013" playOrder="13">
+<navLabel>
+<text>4. Old Testament Theology Focused Around a Central Theme</text>
+</navLabel>
+<content src="chapter06.xhtml"/>
+</navPoint>
+</navPoint>
+<navPoint id="acid0014" playOrder="14">
+<navLabel>
+<text>Part 3: Context</text>
+</navLabel>
+<content src="part03.xhtml"/>
+<navPoint id="acid0015" playOrder="15">
+<navLabel>
+<text>5. Canonical Old Testament Theology</text>
+</navLabel>
+<content src="chapter07.xhtml"/>
+</navPoint>
+<navPoint id="acid0016" playOrder="16">
+<navLabel>
+<text>6. Jewish Biblical Theology</text>
+</navLabel>
+<content src="chapter08.xhtml"/>
+</navPoint>
+<navPoint id="acid0017" playOrder="17">
+<navLabel>
+<text>7. Postmodern Old Testament Theology</text>
+</navLabel>
+<content src="chapter09.xhtml"/>
+</navPoint>
+</navPoint>
+<navPoint id="acid0018" playOrder="18">
+<navLabel>
+<text>Conclusion</text>
+</navLabel>
+<content src="chapter10.xhtml"/>
+</navPoint>
+<navPoint id="acid0019" playOrder="19">
+<navLabel>
+<text>Appendix: Summary of Approaches</text>
+</navLabel>
+<content src="index01.xhtml"/>
+</navPoint>
+<navPoint id="acid0020" playOrder="20">
+<navLabel>
+<text>Subject Index</text>
+</navLabel>
+<content src="index02.xhtml"/>
+</navPoint>
+<navPoint id="acid0021" playOrder="21">
+<navLabel>
+<text>Author Index</text>
+</navLabel>
+<content src="index03.xhtml"/>
+</navPoint>
+<navPoint id="acid0022" playOrder="22">
+<navLabel>
+<text>Scripture Index</text>
+</navLabel>
+<content src="index04.xhtml"/>
+</navPoint>
+</navMap>
+<pageList>
+<pageTarget playOrder="23" type="normal" value="iii">
+<navLabel>
+<text>iii</text>
+</navLabel>
+<content src="titlepage.xhtml#pz3-1"/>
+</pageTarget>
+<pageTarget playOrder="24" type="normal" value="iv">
+<navLabel>
+<text>iv</text>
+</navLabel>
+<content src="copyright-page.xhtml#pz4-1"/>
+</pageTarget>
+<pageTarget playOrder="25" type="normal" value="v">
+<navLabel>
+<text>v</text>
+</navLabel>
+<content src="dedication.xhtml#pz5-1"/>
+</pageTarget>
+<pageTarget playOrder="26" type="normal" value="vii">
+<navLabel>
+<text>vii</text>
+</navLabel>
+<content src="contents.xhtml#pz7-1"/>
+</pageTarget>
+<pageTarget playOrder="27" type="normal" value="ix">
+<navLabel>
+<text>ix</text>
+</navLabel>
+<content src="chapter01.xhtml#pz9-1"/>
+</pageTarget>
+<pageTarget playOrder="28" type="normal" value="x">
+<navLabel>
+<text>x</text>
+</navLabel>
+<content src="chapter01.xhtml#pz10-1"/>
+</pageTarget>
+<pageTarget playOrder="29" type="normal" value="xi">
+<navLabel>
+<text>xi</text>
+</navLabel>
+<content src="chapter01.xhtml#z11-1"/>
+</pageTarget>
+<pageTarget playOrder="30" type="normal" value="1">
+<navLabel>
+<text>1</text>
+</navLabel>
+<content src="chapter02.xhtml#pz13-1"/>
+</pageTarget>
+<pageTarget playOrder="31" type="normal" value="2">
+<navLabel>
+<text>2</text>
+</navLabel>
+<content src="chapter02.xhtml#z14-1"/>
+</pageTarget>
+<pageTarget playOrder="32" type="normal" value="3">
+<navLabel>
+<text>3</text>
+</navLabel>
+<content src="chapter02.xhtml#z15-1"/>
+</pageTarget>
+<pageTarget playOrder="33" type="normal" value="4">
+<navLabel>
+<text>4</text>
+</navLabel>
+<content src="chapter02.xhtml#z16-1"/>
+</pageTarget>
+<pageTarget playOrder="34" type="normal" value="5">
+<navLabel>
+<text>5</text>
+</navLabel>
+<content src="chapter02.xhtml#z17-1"/>
+</pageTarget>
+<pageTarget playOrder="35" type="normal" value="6">
+<navLabel>
+<text>6</text>
+</navLabel>
+<content src="chapter02.xhtml#z18-1"/>
+</pageTarget>
+<pageTarget playOrder="36" type="normal" value="7">
+<navLabel>
+<text>7</text>
+</navLabel>
+<content src="chapter02.xhtml#z19-1"/>
+</pageTarget>
+<pageTarget playOrder="37" type="normal" value="8">
+<navLabel>
+<text>8</text>
+</navLabel>
+<content src="chapter02.xhtml#z20-1"/>
+</pageTarget>
+<pageTarget playOrder="38" type="normal" value="9">
+<navLabel>
+<text>9</text>
+</navLabel>
+<content src="chapter02.xhtml#z21-1"/>
+</pageTarget>
+<pageTarget playOrder="39" type="normal" value="10">
+<navLabel>
+<text>10</text>
+</navLabel>
+<content src="chapter02.xhtml#z22-3"/>
+</pageTarget>
+<pageTarget playOrder="40" type="normal" value="11">
+<navLabel>
+<text>11</text>
+</navLabel>
+<content src="part01.xhtml#pz23-1"/>
+</pageTarget>
+<pageTarget playOrder="41" type="normal" value="13">
+<navLabel>
+<text>13</text>
+</navLabel>
+<content src="chapter03.xhtml#pz25-1"/>
+</pageTarget>
+<pageTarget playOrder="42" type="normal" value="14">
+<navLabel>
+<text>14</text>
+</navLabel>
+<content src="chapter03.xhtml#AXea"/>
+</pageTarget>
+<pageTarget playOrder="43" type="normal" value="15">
+<navLabel>
+<text>15</text>
+</navLabel>
+<content src="chapter03.xhtml#z27-1"/>
+</pageTarget>
+<pageTarget playOrder="44" type="normal" value="16">
+<navLabel>
+<text>16</text>
+</navLabel>
+<content src="chapter03.xhtml#z28-1"/>
+</pageTarget>
+<pageTarget playOrder="45" type="normal" value="17">
+<navLabel>
+<text>17</text>
+</navLabel>
+<content src="chapter03.xhtml#z29-1"/>
+</pageTarget>
+<pageTarget playOrder="46" type="normal" value="18">
+<navLabel>
+<text>18</text>
+</navLabel>
+<content src="chapter03.xhtml#z30-1"/>
+</pageTarget>
+<pageTarget playOrder="47" type="normal" value="19">
+<navLabel>
+<text>19</text>
+</navLabel>
+<content src="chapter03.xhtml#z31-1"/>
+</pageTarget>
+<pageTarget playOrder="48" type="normal" value="20">
+<navLabel>
+<text>20</text>
+</navLabel>
+<content src="chapter03.xhtml#z32-1"/>
+</pageTarget>
+<pageTarget playOrder="49" type="normal" value="21">
+<navLabel>
+<text>21</text>
+</navLabel>
+<content src="chapter03.xhtml#pz33-1"/>
+</pageTarget>
+<pageTarget playOrder="50" type="normal" value="22">
+<navLabel>
+<text>22</text>
+</navLabel>
+<content src="chapter03.xhtml#z34-1"/>
+</pageTarget>
+<pageTarget playOrder="51" type="normal" value="23">
+<navLabel>
+<text>23</text>
+</navLabel>
+<content src="chapter03.xhtml#z35-1"/>
+</pageTarget>
+<pageTarget playOrder="52" type="normal" value="24">
+<navLabel>
+<text>24</text>
+</navLabel>
+<content src="chapter03.xhtml#pz36-1"/>
+</pageTarget>
+<pageTarget playOrder="53" type="normal" value="25">
+<navLabel>
+<text>25</text>
+</navLabel>
+<content src="chapter03.xhtml#z37-1"/>
+</pageTarget>
+<pageTarget playOrder="54" type="normal" value="26">
+<navLabel>
+<text>26</text>
+</navLabel>
+<content src="chapter03.xhtml#pz38-1"/>
+</pageTarget>
+<pageTarget playOrder="55" type="normal" value="27">
+<navLabel>
+<text>27</text>
+</navLabel>
+<content src="chapter03.xhtml#pz39-1"/>
+</pageTarget>
+<pageTarget playOrder="56" type="normal" value="28">
+<navLabel>
+<text>28</text>
+</navLabel>
+<content src="chapter03.xhtml#pz40-1"/>
+</pageTarget>
+<pageTarget playOrder="57" type="normal" value="29">
+<navLabel>
+<text>29</text>
+</navLabel>
+<content src="chapter03.xhtml#z41-1"/>
+</pageTarget>
+<pageTarget playOrder="58" type="normal" value="30">
+<navLabel>
+<text>30</text>
+</navLabel>
+<content src="chapter03.xhtml#z42-1"/>
+</pageTarget>
+<pageTarget playOrder="59" type="normal" value="31">
+<navLabel>
+<text>31</text>
+</navLabel>
+<content src="chapter03.xhtml#pz43-1"/>
+</pageTarget>
+<pageTarget playOrder="60" type="normal" value="32">
+<navLabel>
+<text>32</text>
+</navLabel>
+<content src="chapter03.xhtml#z44-1"/>
+</pageTarget>
+<pageTarget playOrder="61" type="normal" value="33">
+<navLabel>
+<text>33</text>
+</navLabel>
+<content src="chapter04.xhtml#pz45-1"/>
+</pageTarget>
+<pageTarget playOrder="62" type="normal" value="34">
+<navLabel>
+<text>34</text>
+</navLabel>
+<content src="chapter04.xhtml#AMuV"/>
+</pageTarget>
+<pageTarget playOrder="63" type="normal" value="35">
+<navLabel>
+<text>35</text>
+</navLabel>
+<content src="chapter04.xhtml#z47-1"/>
+</pageTarget>
+<pageTarget playOrder="64" type="normal" value="36">
+<navLabel>
+<text>36</text>
+</navLabel>
+<content src="chapter04.xhtml#z48-1"/>
+</pageTarget>
+<pageTarget playOrder="65" type="normal" value="37">
+<navLabel>
+<text>37</text>
+</navLabel>
+<content src="chapter04.xhtml#z49-1"/>
+</pageTarget>
+<pageTarget playOrder="66" type="normal" value="38">
+<navLabel>
+<text>38</text>
+</navLabel>
+<content src="chapter04.xhtml#z50-1"/>
+</pageTarget>
+<pageTarget playOrder="67" type="normal" value="39">
+<navLabel>
+<text>39</text>
+</navLabel>
+<content src="chapter04.xhtml#z51-1"/>
+</pageTarget>
+<pageTarget playOrder="68" type="normal" value="40">
+<navLabel>
+<text>40</text>
+</navLabel>
+<content src="chapter04.xhtml#z52-1"/>
+</pageTarget>
+<pageTarget playOrder="69" type="normal" value="41">
+<navLabel>
+<text>41</text>
+</navLabel>
+<content src="chapter04.xhtml#z53-1"/>
+</pageTarget>
+<pageTarget playOrder="70" type="normal" value="42">
+<navLabel>
+<text>42</text>
+</navLabel>
+<content src="chapter04.xhtml#z54-1"/>
+</pageTarget>
+<pageTarget playOrder="71" type="normal" value="43">
+<navLabel>
+<text>43</text>
+</navLabel>
+<content src="chapter04.xhtml#z55-1"/>
+</pageTarget>
+<pageTarget playOrder="72" type="normal" value="44">
+<navLabel>
+<text>44</text>
+</navLabel>
+<content src="chapter04.xhtml#pz56-1"/>
+</pageTarget>
+<pageTarget playOrder="73" type="normal" value="45">
+<navLabel>
+<text>45</text>
+</navLabel>
+<content src="chapter04.xhtml#z57-1"/>
+</pageTarget>
+<pageTarget playOrder="74" type="normal" value="46">
+<navLabel>
+<text>46</text>
+</navLabel>
+<content src="chapter04.xhtml#z58-1"/>
+</pageTarget>
+<pageTarget playOrder="75" type="normal" value="47">
+<navLabel>
+<text>47</text>
+</navLabel>
+<content src="chapter04.xhtml#z59-1"/>
+</pageTarget>
+<pageTarget playOrder="76" type="normal" value="48">
+<navLabel>
+<text>48</text>
+</navLabel>
+<content src="chapter04.xhtml#pz60-1"/>
+</pageTarget>
+<pageTarget playOrder="77" type="normal" value="49">
+<navLabel>
+<text>49</text>
+</navLabel>
+<content src="chapter04.xhtml#z61-1"/>
+</pageTarget>
+<pageTarget playOrder="78" type="normal" value="50">
+<navLabel>
+<text>50</text>
+</navLabel>
+<content src="chapter04.xhtml#z62-1"/>
+</pageTarget>
+<pageTarget playOrder="79" type="normal" value="51">
+<navLabel>
+<text>51</text>
+</navLabel>
+<content src="chapter04.xhtml#z63-1"/>
+</pageTarget>
+<pageTarget playOrder="80" type="normal" value="53">
+<navLabel>
+<text>53</text>
+</navLabel>
+<content src="part02.xhtml#pz65-1"/>
+</pageTarget>
+<pageTarget playOrder="81" type="normal" value="55">
+<navLabel>
+<text>55</text>
+</navLabel>
+<content src="chapter05.xhtml#pz67-1"/>
+</pageTarget>
+<pageTarget playOrder="82" type="normal" value="56">
+<navLabel>
+<text>56</text>
+</navLabel>
+<content src="chapter05.xhtml#pAa6c"/>
+</pageTarget>
+<pageTarget playOrder="83" type="normal" value="57">
+<navLabel>
+<text>57</text>
+</navLabel>
+<content src="chapter05.xhtml#z69-1"/>
+</pageTarget>
+<pageTarget playOrder="84" type="normal" value="58">
+<navLabel>
+<text>58</text>
+</navLabel>
+<content src="chapter05.xhtml#z70-1"/>
+</pageTarget>
+<pageTarget playOrder="85" type="normal" value="59">
+<navLabel>
+<text>59</text>
+</navLabel>
+<content src="chapter05.xhtml#ADrd"/>
+</pageTarget>
+<pageTarget playOrder="86" type="normal" value="60">
+<navLabel>
+<text>60</text>
+</navLabel>
+<content src="chapter05.xhtml#pz72-1"/>
+</pageTarget>
+<pageTarget playOrder="87" type="normal" value="61">
+<navLabel>
+<text>61</text>
+</navLabel>
+<content src="chapter05.xhtml#z73-1"/>
+</pageTarget>
+<pageTarget playOrder="88" type="normal" value="62">
+<navLabel>
+<text>62</text>
+</navLabel>
+<content src="chapter05.xhtml#pz74-1"/>
+</pageTarget>
+<pageTarget playOrder="89" type="normal" value="63">
+<navLabel>
+<text>63</text>
+</navLabel>
+<content src="chapter05.xhtml#z75-1"/>
+</pageTarget>
+<pageTarget playOrder="90" type="normal" value="64">
+<navLabel>
+<text>64</text>
+</navLabel>
+<content src="chapter05.xhtml#z76-1"/>
+</pageTarget>
+<pageTarget playOrder="91" type="normal" value="65">
+<navLabel>
+<text>65</text>
+</navLabel>
+<content src="chapter05.xhtml#z77-1"/>
+</pageTarget>
+<pageTarget playOrder="92" type="normal" value="66">
+<navLabel>
+<text>66</text>
+</navLabel>
+<content src="chapter05.xhtml#pz78-1"/>
+</pageTarget>
+<pageTarget playOrder="93" type="normal" value="67">
+<navLabel>
+<text>67</text>
+</navLabel>
+<content src="chapter05.xhtml#z79-1"/>
+</pageTarget>
+<pageTarget playOrder="94" type="normal" value="68">
+<navLabel>
+<text>68</text>
+</navLabel>
+<content src="chapter05.xhtml#pz80-1"/>
+</pageTarget>
+<pageTarget playOrder="95" type="normal" value="69">
+<navLabel>
+<text>69</text>
+</navLabel>
+<content src="chapter05.xhtml#z81-1"/>
+</pageTarget>
+<pageTarget playOrder="96" type="normal" value="70">
+<navLabel>
+<text>70</text>
+</navLabel>
+<content src="chapter05.xhtml#z82-1"/>
+</pageTarget>
+<pageTarget playOrder="97" type="normal" value="71">
+<navLabel>
+<text>71</text>
+</navLabel>
+<content src="chapter05.xhtml#z83-1"/>
+</pageTarget>
+<pageTarget playOrder="98" type="normal" value="72">
+<navLabel>
+<text>72</text>
+</navLabel>
+<content src="chapter05.xhtml#z84-1"/>
+</pageTarget>
+<pageTarget playOrder="99" type="normal" value="73">
+<navLabel>
+<text>73</text>
+</navLabel>
+<content src="chapter06.xhtml#pz85-1"/>
+</pageTarget>
+<pageTarget playOrder="100" type="normal" value="74">
+<navLabel>
+<text>74</text>
+</navLabel>
+<content src="chapter06.xhtml#pA_VI"/>
+</pageTarget>
+<pageTarget playOrder="101" type="normal" value="75">
+<navLabel>
+<text>75</text>
+</navLabel>
+<content src="chapter06.xhtml#pz87-1"/>
+</pageTarget>
+<pageTarget playOrder="102" type="normal" value="76">
+<navLabel>
+<text>76</text>
+</navLabel>
+<content src="chapter06.xhtml#z88-1"/>
+</pageTarget>
+<pageTarget playOrder="103" type="normal" value="77">
+<navLabel>
+<text>77</text>
+</navLabel>
+<content src="chapter06.xhtml#pz89-1"/>
+</pageTarget>
+<pageTarget playOrder="104" type="normal" value="78">
+<navLabel>
+<text>78</text>
+</navLabel>
+<content src="chapter06.xhtml#z90-1"/>
+</pageTarget>
+<pageTarget playOrder="105" type="normal" value="79">
+<navLabel>
+<text>79</text>
+</navLabel>
+<content src="chapter06.xhtml#z91-1"/>
+</pageTarget>
+<pageTarget playOrder="106" type="normal" value="80">
+<navLabel>
+<text>80</text>
+</navLabel>
+<content src="chapter06.xhtml#z92-1"/>
+</pageTarget>
+<pageTarget playOrder="107" type="normal" value="81">
+<navLabel>
+<text>81</text>
+</navLabel>
+<content src="chapter06.xhtml#z93-1"/>
+</pageTarget>
+<pageTarget playOrder="108" type="normal" value="82">
+<navLabel>
+<text>82</text>
+</navLabel>
+<content src="chapter06.xhtml#pz94-1"/>
+</pageTarget>
+<pageTarget playOrder="109" type="normal" value="83">
+<navLabel>
+<text>83</text>
+</navLabel>
+<content src="chapter06.xhtml#z95-1"/>
+</pageTarget>
+<pageTarget playOrder="110" type="normal" value="84">
+<navLabel>
+<text>84</text>
+</navLabel>
+<content src="chapter06.xhtml#z96-1"/>
+</pageTarget>
+<pageTarget playOrder="111" type="normal" value="85">
+<navLabel>
+<text>85</text>
+</navLabel>
+<content src="chapter06.xhtml#z97-1"/>
+</pageTarget>
+<pageTarget playOrder="112" type="normal" value="86">
+<navLabel>
+<text>86</text>
+</navLabel>
+<content src="chapter06.xhtml#pz98-1"/>
+</pageTarget>
+<pageTarget playOrder="113" type="normal" value="87">
+<navLabel>
+<text>87</text>
+</navLabel>
+<content src="chapter06.xhtml#z99-1"/>
+</pageTarget>
+<pageTarget playOrder="114" type="normal" value="88">
+<navLabel>
+<text>88</text>
+</navLabel>
+<content src="chapter06.xhtml#z100-1"/>
+</pageTarget>
+<pageTarget playOrder="115" type="normal" value="89">
+<navLabel>
+<text>89</text>
+</navLabel>
+<content src="part03.xhtml#pz101-1"/>
+</pageTarget>
+<pageTarget playOrder="116" type="normal" value="91">
+<navLabel>
+<text>91</text>
+</navLabel>
+<content src="chapter07.xhtml#pz103-1"/>
+</pageTarget>
+<pageTarget playOrder="117" type="normal" value="92">
+<navLabel>
+<text>92</text>
+</navLabel>
+<content src="chapter07.xhtml#z104-1"/>
+</pageTarget>
+<pageTarget playOrder="118" type="normal" value="93">
+<navLabel>
+<text>93</text>
+</navLabel>
+<content src="chapter07.xhtml#pz105-1"/>
+</pageTarget>
+<pageTarget playOrder="119" type="normal" value="94">
+<navLabel>
+<text>94</text>
+</navLabel>
+<content src="chapter07.xhtml#z106-1"/>
+</pageTarget>
+<pageTarget playOrder="120" type="normal" value="95">
+<navLabel>
+<text>95</text>
+</navLabel>
+<content src="chapter07.xhtml#z107-1"/>
+</pageTarget>
+<pageTarget playOrder="121" type="normal" value="96">
+<navLabel>
+<text>96</text>
+</navLabel>
+<content src="chapter07.xhtml#z108-1"/>
+</pageTarget>
+<pageTarget playOrder="122" type="normal" value="97">
+<navLabel>
+<text>97</text>
+</navLabel>
+<content src="chapter07.xhtml#z109-1"/>
+</pageTarget>
+<pageTarget playOrder="123" type="normal" value="98">
+<navLabel>
+<text>98</text>
+</navLabel>
+<content src="chapter07.xhtml#z110-1"/>
+</pageTarget>
+<pageTarget playOrder="124" type="normal" value="99">
+<navLabel>
+<text>99</text>
+</navLabel>
+<content src="chapter07.xhtml#z111-1"/>
+</pageTarget>
+<pageTarget playOrder="125" type="normal" value="100">
+<navLabel>
+<text>100</text>
+</navLabel>
+<content src="chapter07.xhtml#z112-1"/>
+</pageTarget>
+<pageTarget playOrder="126" type="normal" value="101">
+<navLabel>
+<text>101</text>
+</navLabel>
+<content src="chapter07.xhtml#pz113-1"/>
+</pageTarget>
+<pageTarget playOrder="127" type="normal" value="102">
+<navLabel>
+<text>102</text>
+</navLabel>
+<content src="chapter07.xhtml#z114-1"/>
+</pageTarget>
+<pageTarget playOrder="128" type="normal" value="103">
+<navLabel>
+<text>103</text>
+</navLabel>
+<content src="chapter07.xhtml#pz115-1"/>
+</pageTarget>
+<pageTarget playOrder="129" type="normal" value="104">
+<navLabel>
+<text>104</text>
+</navLabel>
+<content src="chapter07.xhtml#pz116-1"/>
+</pageTarget>
+<pageTarget playOrder="130" type="normal" value="105">
+<navLabel>
+<text>105</text>
+</navLabel>
+<content src="chapter07.xhtml#z117-1"/>
+</pageTarget>
+<pageTarget playOrder="131" type="normal" value="106">
+<navLabel>
+<text>106</text>
+</navLabel>
+<content src="chapter07.xhtml#z118-1"/>
+</pageTarget>
+<pageTarget playOrder="132" type="normal" value="107">
+<navLabel>
+<text>107</text>
+</navLabel>
+<content src="chapter07.xhtml#pz119-1"/>
+</pageTarget>
+<pageTarget playOrder="133" type="normal" value="108">
+<navLabel>
+<text>108</text>
+</navLabel>
+<content src="chapter07.xhtml#z120-1"/>
+</pageTarget>
+<pageTarget playOrder="134" type="normal" value="109">
+<navLabel>
+<text>109</text>
+</navLabel>
+<content src="chapter07.xhtml#z121-1"/>
+</pageTarget>
+<pageTarget playOrder="135" type="normal" value="110">
+<navLabel>
+<text>110</text>
+</navLabel>
+<content src="chapter07.xhtml#z122-1"/>
+</pageTarget>
+<pageTarget playOrder="136" type="normal" value="111">
+<navLabel>
+<text>111</text>
+</navLabel>
+<content src="chapter08.xhtml#pz123-1"/>
+</pageTarget>
+<pageTarget playOrder="137" type="normal" value="112">
+<navLabel>
+<text>112</text>
+</navLabel>
+<content src="chapter08.xhtml#pAMca"/>
+</pageTarget>
+<pageTarget playOrder="138" type="normal" value="113">
+<navLabel>
+<text>113</text>
+</navLabel>
+<content src="chapter08.xhtml#z125-1"/>
+</pageTarget>
+<pageTarget playOrder="139" type="normal" value="114">
+<navLabel>
+<text>114</text>
+</navLabel>
+<content src="chapter08.xhtml#z126-1"/>
+</pageTarget>
+<pageTarget playOrder="140" type="normal" value="115">
+<navLabel>
+<text>115</text>
+</navLabel>
+<content src="chapter08.xhtml#pz127-1"/>
+</pageTarget>
+<pageTarget playOrder="141" type="normal" value="116">
+<navLabel>
+<text>116</text>
+</navLabel>
+<content src="chapter08.xhtml#z128-1"/>
+</pageTarget>
+<pageTarget playOrder="142" type="normal" value="117">
+<navLabel>
+<text>117</text>
+</navLabel>
+<content src="chapter08.xhtml#z129-1"/>
+</pageTarget>
+<pageTarget playOrder="143" type="normal" value="118">
+<navLabel>
+<text>118</text>
+</navLabel>
+<content src="chapter08.xhtml#z130-1"/>
+</pageTarget>
+<pageTarget playOrder="144" type="normal" value="119">
+<navLabel>
+<text>119</text>
+</navLabel>
+<content src="chapter08.xhtml#z131-1"/>
+</pageTarget>
+<pageTarget playOrder="145" type="normal" value="120">
+<navLabel>
+<text>120</text>
+</navLabel>
+<content src="chapter08.xhtml#z132-1"/>
+</pageTarget>
+<pageTarget playOrder="146" type="normal" value="121">
+<navLabel>
+<text>121</text>
+</navLabel>
+<content src="chapter08.xhtml#z133-1"/>
+</pageTarget>
+<pageTarget playOrder="147" type="normal" value="122">
+<navLabel>
+<text>122</text>
+</navLabel>
+<content src="chapter08.xhtml#z134-1"/>
+</pageTarget>
+<pageTarget playOrder="148" type="normal" value="123">
+<navLabel>
+<text>123</text>
+</navLabel>
+<content src="chapter08.xhtml#z135-1"/>
+</pageTarget>
+<pageTarget playOrder="149" type="normal" value="124">
+<navLabel>
+<text>124</text>
+</navLabel>
+<content src="chapter08.xhtml#z136-1"/>
+</pageTarget>
+<pageTarget playOrder="150" type="normal" value="125">
+<navLabel>
+<text>125</text>
+</navLabel>
+<content src="chapter08.xhtml#z137-1"/>
+</pageTarget>
+<pageTarget playOrder="151" type="normal" value="126">
+<navLabel>
+<text>126</text>
+</navLabel>
+<content src="chapter08.xhtml#z138-1"/>
+</pageTarget>
+<pageTarget playOrder="152" type="normal" value="127">
+<navLabel>
+<text>127</text>
+</navLabel>
+<content src="chapter08.xhtml#z139-1"/>
+</pageTarget>
+<pageTarget playOrder="153" type="normal" value="128">
+<navLabel>
+<text>128</text>
+</navLabel>
+<content src="chapter09.xhtml#pz140-1"/>
+</pageTarget>
+<pageTarget playOrder="154" type="normal" value="129">
+<navLabel>
+<text>129</text>
+</navLabel>
+<content src="chapter09.xhtml#AgZR"/>
+</pageTarget>
+<pageTarget playOrder="155" type="normal" value="130">
+<navLabel>
+<text>130</text>
+</navLabel>
+<content src="chapter09.xhtml#pz142-1"/>
+</pageTarget>
+<pageTarget playOrder="156" type="normal" value="131">
+<navLabel>
+<text>131</text>
+</navLabel>
+<content src="chapter09.xhtml#z143-1"/>
+</pageTarget>
+<pageTarget playOrder="157" type="normal" value="132">
+<navLabel>
+<text>132</text>
+</navLabel>
+<content src="chapter09.xhtml#z144-1"/>
+</pageTarget>
+<pageTarget playOrder="158" type="normal" value="133">
+<navLabel>
+<text>133</text>
+</navLabel>
+<content src="chapter09.xhtml#pz145-1"/>
+</pageTarget>
+<pageTarget playOrder="159" type="normal" value="134">
+<navLabel>
+<text>134</text>
+</navLabel>
+<content src="chapter09.xhtml#z146-1"/>
+</pageTarget>
+<pageTarget playOrder="160" type="normal" value="135">
+<navLabel>
+<text>135</text>
+</navLabel>
+<content src="chapter09.xhtml#pz147-1"/>
+</pageTarget>
+<pageTarget playOrder="161" type="normal" value="136">
+<navLabel>
+<text>136</text>
+</navLabel>
+<content src="chapter09.xhtml#pz148-1"/>
+</pageTarget>
+<pageTarget playOrder="162" type="normal" value="137">
+<navLabel>
+<text>137</text>
+</navLabel>
+<content src="chapter09.xhtml#z149-1"/>
+</pageTarget>
+<pageTarget playOrder="163" type="normal" value="138">
+<navLabel>
+<text>138</text>
+</navLabel>
+<content src="chapter09.xhtml#z150-1"/>
+</pageTarget>
+<pageTarget playOrder="164" type="normal" value="139">
+<navLabel>
+<text>139</text>
+</navLabel>
+<content src="chapter09.xhtml#z151-1"/>
+</pageTarget>
+<pageTarget playOrder="165" type="normal" value="140">
+<navLabel>
+<text>140</text>
+</navLabel>
+<content src="chapter09.xhtml#z152-1"/>
+</pageTarget>
+<pageTarget playOrder="166" type="normal" value="141">
+<navLabel>
+<text>141</text>
+</navLabel>
+<content src="chapter09.xhtml#pz153-1"/>
+</pageTarget>
+<pageTarget playOrder="167" type="normal" value="142">
+<navLabel>
+<text>142</text>
+</navLabel>
+<content src="chapter09.xhtml#z154-1"/>
+</pageTarget>
+<pageTarget playOrder="168" type="normal" value="143">
+<navLabel>
+<text>143</text>
+</navLabel>
+<content src="chapter09.xhtml#z155-1"/>
+</pageTarget>
+<pageTarget playOrder="169" type="normal" value="144">
+<navLabel>
+<text>144</text>
+</navLabel>
+<content src="chapter09.xhtml#z156-1"/>
+</pageTarget>
+<pageTarget playOrder="170" type="normal" value="145">
+<navLabel>
+<text>145</text>
+</navLabel>
+<content src="chapter09.xhtml#z157-1"/>
+</pageTarget>
+<pageTarget playOrder="171" type="normal" value="146">
+<navLabel>
+<text>146</text>
+</navLabel>
+<content src="chapter09.xhtml#z158-1"/>
+</pageTarget>
+<pageTarget playOrder="172" type="normal" value="147">
+<navLabel>
+<text>147</text>
+</navLabel>
+<content src="chapter09.xhtml#z159-1"/>
+</pageTarget>
+<pageTarget playOrder="173" type="normal" value="149">
+<navLabel>
+<text>149</text>
+</navLabel>
+<content src="chapter10.xhtml#pz161-1"/>
+</pageTarget>
+<pageTarget playOrder="174" type="normal" value="150">
+<navLabel>
+<text>150</text>
+</navLabel>
+<content src="chapter10.xhtml#pz162-1"/>
+</pageTarget>
+<pageTarget playOrder="175" type="normal" value="151">
+<navLabel>
+<text>151</text>
+</navLabel>
+<content src="chapter10.xhtml#z163-1"/>
+</pageTarget>
+<pageTarget playOrder="176" type="normal" value="152">
+<navLabel>
+<text>152</text>
+</navLabel>
+<content src="chapter10.xhtml#z164-1"/>
+</pageTarget>
+<pageTarget playOrder="177" type="normal" value="153">
+<navLabel>
+<text>153</text>
+</navLabel>
+<content src="chapter10.xhtml#z165-1"/>
+</pageTarget>
+<pageTarget playOrder="178" type="normal" value="154">
+<navLabel>
+<text>154</text>
+</navLabel>
+<content src="chapter10.xhtml#z166-1"/>
+</pageTarget>
+<pageTarget playOrder="179" type="normal" value="155">
+<navLabel>
+<text>155</text>
+</navLabel>
+<content src="chapter10.xhtml#z167-1"/>
+</pageTarget>
+<pageTarget playOrder="180" type="normal" value="156">
+<navLabel>
+<text>156</text>
+</navLabel>
+<content src="chapter10.xhtml#pz168-1"/>
+</pageTarget>
+<pageTarget playOrder="181" type="normal" value="157">
+<navLabel>
+<text>157</text>
+</navLabel>
+<content src="chapter10.xhtml#z169-1"/>
+</pageTarget>
+<pageTarget playOrder="182" type="normal" value="158">
+<navLabel>
+<text>158</text>
+</navLabel>
+<content src="chapter10.xhtml#z170-1"/>
+</pageTarget>
+<pageTarget playOrder="183" type="normal" value="159">
+<navLabel>
+<text>159</text>
+</navLabel>
+<content src="chapter10.xhtml#z171-1"/>
+</pageTarget>
+<pageTarget playOrder="184" type="normal" value="161">
+<navLabel>
+<text>161</text>
+</navLabel>
+<content src="index01.xhtml#pz173-1"/>
+</pageTarget>
+<pageTarget playOrder="185" type="normal" value="162">
+<navLabel>
+<text>162</text>
+</navLabel>
+<content src="index01.xhtml#AvSL"/>
+</pageTarget>
+<pageTarget playOrder="186" type="normal" value="163">
+<navLabel>
+<text>163</text>
+</navLabel>
+<content src="index02.xhtml#pz175-1"/>
+</pageTarget>
+<pageTarget playOrder="187" type="normal" value="164">
+<navLabel>
+<text>164</text>
+</navLabel>
+<content src="index02.xhtml#pz176-2"/>
+</pageTarget>
+<pageTarget playOrder="188" type="normal" value="165">
+<navLabel>
+<text>165</text>
+</navLabel>
+<content src="index02.xhtml#ALHX"/>
+</pageTarget>
+<pageTarget playOrder="189" type="normal" value="166">
+<navLabel>
+<text>166</text>
+</navLabel>
+<content src="index02.xhtml#pz178-1"/>
+</pageTarget>
+<pageTarget playOrder="190" type="normal" value="167">
+<navLabel>
+<text>167</text>
+</navLabel>
+<content src="index02.xhtml#pz178-91"/>
+</pageTarget>
+<pageTarget playOrder="191" type="normal" value="168">
+<navLabel>
+<text>168</text>
+</navLabel>
+<content src="index02.xhtml#pz180-2"/>
+</pageTarget>
+<pageTarget playOrder="192" type="normal" value="169">
+<navLabel>
+<text>169</text>
+</navLabel>
+<content src="index02.xhtml#AFLl"/>
+</pageTarget>
+<pageTarget playOrder="193" type="normal" value="171">
+<navLabel>
+<text>171</text>
+</navLabel>
+<content src="index03.xhtml#pz183-1"/>
+</pageTarget>
+<pageTarget playOrder="194" type="normal" value="172">
+<navLabel>
+<text>172</text>
+</navLabel>
+<content src="index03.xhtml#pz184-1"/>
+</pageTarget>
+<pageTarget playOrder="195" type="normal" value="173">
+<navLabel>
+<text>173</text>
+</navLabel>
+<content src="index03.xhtml#pz185-1"/>
+</pageTarget>
+<pageTarget playOrder="196" type="normal" value="174">
+<navLabel>
+<text>174</text>
+</navLabel>
+<content src="index03.xhtml#pz186-1"/>
+</pageTarget>
+<pageTarget playOrder="197" type="normal" value="175">
+<navLabel>
+<text>175</text>
+</navLabel>
+<content src="index04.xhtml#pz187-1"/>
+</pageTarget>
+<pageTarget playOrder="198" type="normal" value="176">
+<navLabel>
+<text>176</text>
+</navLabel>
+<content src="index04.xhtml#pATbJ"/>
+</pageTarget>
+<pageTarget playOrder="199" type="normal" value="177">
+<navLabel>
+<text>177</text>
+</navLabel>
+<content src="index04.xhtml#pAKDW"/>
+</pageTarget>
+</pageList>
+</ncx>

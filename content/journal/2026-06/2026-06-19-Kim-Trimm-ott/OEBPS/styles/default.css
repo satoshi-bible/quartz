@@ -1,0 +1,983 @@
+@media speech {
+ .digits {
+  -epub-speak-as: digits
+ }
+ .spell {
+  -epub-speak-as: spell-out
+ }
+}
+/*Page Margins*/
+@page {
+margin:1em 1em 1em 1em;
+}
+/*End of Page Margins*/
+
+/*Image*/
+/*Image wrapper */
+div.image {
+text-align:center;
+margin:0em 0em 0em 0em;
+}
+
+/*Image caption with div image class */
+div.image p {
+font-size:0.8em;
+margin:0.5em auto;
+text-indent:0em;
+text-align:left;
+word-wrap:break-word;
+}
+div.image img {
+max-width:100%;
+}
+/*End of Image Wrapper*/
+
+/* coverpage */
+.coverpage {
+vertical-align:middle;
+text-align:center;
+background-color:white;
+margin:0em 0em 0em 0em;
+}
+.coverpage img {
+max-width:100%;
+margin:0em 0em 0em 0em;
+}
+/*End of Coverpage*/
+
+/* title page */
+/*title page wrapper */
+.titlepage {
+text-align:center;
+margin:0em 0em 0em 0em;
+padding:0em 0em 0em 0em;
+text-align:center;
+}
+.titlepage .title {
+font-size:1.5em;
+margin:0em 0em 0em 0em;
+text-align:center;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+.titlepage .subtitle {
+font-size:1.4em;
+text-align:center;
+margin:0em 0em 0em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+.titlepage .author {
+margin:0em 0em 0em 0em;
+font-size:1.2em;
+text-align:center;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+.titlepage .illustrator {
+font-size:1.2em;
+text-align:center;
+margin:0em 0em 0em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+/*End of titlepage*/
+
+/* toc */
+h1.chaptertoc {
+text-align:center!important;
+font-size:1.5em!important;
+margin:1em 0em 1.6em 0em!important;
+}
+p.level {
+text-indent:-1em;
+text-align:left;
+margin:.4em 0em 0em 1em;
+}
+p.levela {
+text-indent:0em;
+text-align:left;
+margin:.9em 0em 0em 0em;
+}
+p.level1 {
+text-indent:0em;
+font-size:1em;
+text-align:left;
+margin:1.3em 0em .8em 0em;
+}
+p.level2 {
+text-indent: 0em;
+text-align:left;
+margin:.4em 0em 0em 0em;
+}
+p.level2t {
+text-indent: 0em;
+text-align:left;
+margin:1.5em 0em 0em 0em;
+}
+/*End of toc*/
+
+
+/*Copyright*/
+.copyt
+{
+display:block;
+font-size:0.5em;
+margin:2em 0em 0em 0em;
+text-indent:0em;
+text-align:left;
+}
+
+.copy
+{
+display:block;
+font-size:0.5em;
+margin:1em 0em 0em 0em;
+text-indent:0em;
+text-align:left;
+}
+
+.copyj
+{
+display:block;
+font-size:0.5em;
+margin:1em 0em 0em 0em;
+text-indent:0em;
+text-align:justify;
+}
+
+.copy1
+{
+display:block;
+font-size:0.5em;
+margin:.2em 0em 0em 0em;
+text-indent:0em;
+text-align:left;
+}
+
+.isbn
+{
+display:block;
+font-size:0.5em;
+margin:.8em 0em 0em 0em;
+text-indent:0em;
+text-align:left;
+}
+
+.line1
+{
+border-top:thin solid black;
+margin:1em 0em 0em 0em;
+}
+.other
+{
+display:block;
+font-size:0.5em;
+margin:0.2em 0em .3em 0em;
+text-indent:0em;
+text-align:left;
+word-spacing:3px;
+}
+/*End of Copyright*/
+
+/*Headings
+This is the default styling of all headings to deal with issues such as page breaks splitting headings and hyphenation issues.*/
+h1, h2, h3, h4, h5, h6 {
+page-break-after:avoid;
+page-break-inside:avoid;
+-webkit-hyphens:none !important;
+hyphens:none !important;
+}
+/*color:#000;*/ /* This color "black" will apply to all heads unless a color is applied to a class */
+
+.dedication, .forward, .chapter, .endnotes, .glossary, .publisher, .bibliography{
+text-align:left;
+}
+.copyright h1, .dedication h1, .forward h1, .chapter h1, .endnotes h1, .glossary h1, .publisher h1, .bibliography h1 {
+font-size:1.5em;
+margin:1em 0em 2.5em 0em;
+text-align:center;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h1.chapter1 {
+font-size:1.5em;
+margin:1.2em 0em 2.5em 0em;
+text-align:center;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h1.chapterp {
+font-size:1.9em;
+margin:10% 0em 3em 0em;
+text-align:center;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+span.spp{
+font-size:.75em;
+}
+span.sp1{
+font-size:.75em;
+}
+.copyright h2, .dedication h2, .forward h2, .section h2, .chapter h2, .glossary h2, .publisher h2, .titlepage h2 {
+font-size:1.5em;
+margin:0em 0em 0em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h2.h2 {
+font-size:1.1em;
+margin:1.5em 10% .8em 0em;
+text-align:left;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h2.h2i {
+font-size:.9em;
+margin:1em 7% .3em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h2.h3 {
+font-size:1.05em;
+margin:1em 20% .3em 0em;
+text-align:left;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h2.h3a {
+font-size:1.05em;
+margin:.8em 20% .3em 0em;
+text-align:left;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h2.h2bx {
+font-size:1em;
+margin:.2em 0em 1em 0em;
+text-align:left;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h2.h2n {
+font-size:1em;
+margin:2em 0em .8em 0em;
+text-align:left;
+font-weight:normal;
+border-bottom:thin solid black;
+width:50%;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+.copyright h3, .dedication h3, .forward h3, .section h3, .chapter h3, .glossary h3, .publisher h3, .titlepage h3 {
+font-size:1.1em;
+margin:0em 0em 0em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+h3.h4 {
+font-size:1em;
+margin:1em 20% 0em 0em;
+text-align:left;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+.copyright h4, .dedication h4, .forward h4, .section h4, .chapter h4, .glossary h4, .publisher h4, .titlepage h4 {
+font-size:1em;
+margin:0em 0em 0em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+/*End of Headings*/
+
+/*part/section divider*/
+.section {
+text-align:center;
+margin:0em 0em 0em 0em;
+padding:2em 0em 3em 0em;
+}
+.section h1 {
+font-size:1.5em;
+text-align:center;
+margin:0em 0em 0em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+.section h2 {
+font-size:1.4em;
+text-align:center;
+margin:0em 0em 0em 0em;
+font-weight:normal;
+word-wrap:break-word;
+-webkit-hyphens:none;
+hyphens:none;
+}
+/*End of part/section divider*/
+
+	
+/*Para Styles*/
+/*Change below properties as required in source file*/
+/*default para style with 0 indent*/
+p {
+font-size:small;
+text-align:justify;
+text-indent:1.5em;
+margin:0.6em 0em 0em 0em;
+word-wrap:break-word;
+}
+
+.tbp {
+font-size:small;
+text-align:left;
+text-indent:-1em;
+margin:.4em 0em 0em 1em;
+word-wrap:break-word;
+}
+.tbpa {
+font-size:small;
+text-align:left;
+text-indent:-1em;
+margin:0em 0em 0em 1em;
+word-wrap:break-word;
+}
+
+/*This style will leave 1st para and indent rest of the para*/
+p + p {
+text-indent:1.5em;
+margin:0em 0em 0em 0em;
+}
+
+/*first paragraph after h2 will not intent*/
+
+/*This style will apply no-indent style in para*/
+p.noind {
+font-size:small;
+text-indent:0em;
+margin:0em 0em 0em 0em;
+}
+
+p.noind1 {
+font-size:.75em;
+text-indent:1.5em;
+margin:.3em 0em .5em 0em;
+}
+p.noind1b {
+font-size:.75em;
+text-indent:1.5em;
+margin:.3em 0em 1.5em 0em;
+}
+
+p.noindb {
+font-size:small;
+text-indent:-1.5em;
+text-align:left;
+margin:.4em 0em 0em 1.5em;
+}
+
+p.noindp {
+font-size:small;
+text-indent:0em;
+margin:0em 2em 0em 2em;
+}
+
+/*center para text*/
+p.center {
+font-size:small;
+text-align:center;
+text-indent:0em;
+margin:0em 0em 0em 0em;
+word-wrap:break-word;
+}
+p.centerc {
+font-size:small;
+text-align:left;
+text-indent:0em;
+margin:1.5em 0em .5em 0em;
+word-wrap:break-word;
+}
+p.centerded {
+font-size:small;
+text-align:center;
+text-indent:0em;
+margin:.35em 0em 0em 0em;
+word-wrap:break-word;
+}
+p.centerdedt {
+font-size:small;
+text-align:center;
+text-indent:0em;
+margin:20% 0em 0em 0em;
+word-wrap:break-word;
+}
+/* bibliography */
+.bibliography p{
+padding-left:1em;
+margin:0em 0em 0em 0em;
+text-indent:-1em;
+word-wrap:break-word;
+}
+/*align para to left or right*/
+.left {
+font-size:small;
+text-align:left;
+text-indent:0em;
+margin:0em 0em 0em 0em;
+}
+.right {
+font-size:small;
+text-align:right;
+text-indent:0em;
+margin:0em 0em 0em 0em;
+}
+/*End of Para Styles*/
+
+/*Extract/Blockquote*/
+blockquote{
+text-align:justify !important;
+text-indent:0em !important;
+margin:1em 1.3em 1em 1.3em !important;
+word-wrap:break-word !important;
+padding:0em !important;
+}
+.ext{
+text-indent:0em;
+margin:0em 0em 0em 0em;
+}
+.ext1{
+text-indent:1em;
+margin:0em 0em 0em 0em;
+}
+p.handwritten {
+font-style:italic;
+margin:.5em auto .5em auto;
+width:85%;
+word-wrap:break-word;
+}
+/* For extracts that represent text messages, computer text, etc..:*/
+.code p {
+font-family:"Courier";
+margin:1em auto 1em auto;
+width:85%;
+text-indent:0em;
+word-wrap:break-word;
+}
+/*End of Extract/Blockquote */
+
+/* lists */
+p.ol {
+font-size:small;
+text-indent:-1.5em;
+text-align:left;
+margin:0em 0em 0em 1.5em;
+word-wrap:break-word;
+}
+
+p.olt {
+font-size:small;
+text-indent:-1.5em;
+text-align:left;
+margin:1em 0em 0em 1.5em;
+word-wrap:break-word;
+}
+
+p.olb {
+font-size:small;
+text-indent:-1.5em;
+text-align:left;
+margin:0em 0em 1em 1.5em;
+word-wrap:break-word;
+}
+
+p.olind {
+font-size:small;
+text-indent:-1em;
+text-align:left;
+margin:.4em 0em 0em 2.5em;
+word-wrap:break-word;
+}
+
+p.olindt {
+font-size:small;
+text-indent:-1em;
+text-align:left;
+margin:1.5em 0em 0em 2.5em;
+word-wrap:break-word;
+}
+
+p.olindb {
+font-size:small;
+text-indent:-1em;
+text-align:left;
+margin:.4em 0em 1.5em 2.5em;
+word-wrap:break-word;
+}
+
+p.ul {
+font-size:small;
+text-indent:-.5em;
+text-align:left;
+margin:0em 0em 0em .5em;
+word-wrap:break-word;
+}
+
+p.ult {
+font-size:small;
+text-indent:-.5em;
+text-align:left;
+margin:1em 0em 0em .5em;
+word-wrap:break-word;
+}
+
+p.ulb {
+font-size:small;
+text-indent:-.5em;
+text-align:left;
+margin:0em 0em 1em .5em;
+word-wrap:break-word;
+}
+
+p.ulind {
+font-size:small;
+text-indent:-.6em;
+text-align:left;
+margin:.3em 0em 0em 2em;
+word-wrap:break-word;
+}
+
+p.ulindt {
+font-size:small;
+text-indent:-.6em;
+text-align:left;
+margin:1em 0em 0em 2em;
+word-wrap:break-word;
+}
+
+p.ulindb {
+font-size:small;
+text-indent:-.6em;
+text-align:left;
+margin:.3em 0em 1em 2em;
+word-wrap:break-word;
+}
+/*End of List*/
+
+/* table */
+/* tables should only be used for displaying data. Please do not use tables to layout images */
+table {
+width:100%!important;
+font-size:small;
+border:thin solid black!important;
+margin:1em 0em 1em 0em!important;
+border-collapse:collapse!important;
+}
+td {
+padding:.3em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+
+table#pz173-3 {
+width:100%!important;
+font-size:small;
+border:thin solid black!important;
+margin:1em 0em 1em 0em!important;
+border-collapse:collapse!important;
+}
+table#pz173-3 td {
+padding:.4em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz173-3 td:nth-child(1) {
+width:20%!important;
+padding:.4em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz173-3 td:nth-child(2) {
+width:40%!important;
+padding:.4em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz173-3 td:nth-child(3) {
+width:40%!important;
+padding:.4em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+
+table#pz115-2 {
+width:100%!important;
+font-size:small;
+border:thin solid black!important;
+margin:.3em 0em .3em 0em!important;
+border-collapse:collapse!important;
+}
+table#pz115-2 td {
+width:25%!important;
+padding:.4em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+
+table#pz114-4 {
+width:100%!important;
+font-size:small;
+border:thin solid black!important;
+margin:.3em 0em .3em 0em!important;
+border-collapse:collapse!important;
+}
+table#pz114-4 td {
+width:33.33%!important;
+padding:.4em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+
+table#pz113-6 {
+width:100%!important;
+font-size:small;
+border:hidden!important;
+margin:0em 0em 0em 0em!important;
+border-collapse:collapse!important;
+}
+table#pz113-6 td {
+width:33.33%!important;
+padding:.3em .7em .3em .3em!important;
+vertical-align:top!important;
+text-align:left;
+border:hidden!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+
+table#pz78-2 {
+width:100%!important;
+font-size:small;
+border:thin solid black!important;
+margin:.3em 0em 1.5em 0em!important;
+border-collapse:collapse!important;
+}
+table#pz78-2 td {
+padding:.4em!important;
+vertical-align:top;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz78-2 td:nth-child(1) {
+width:23%!important;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz78-2 td:nth-child(2) {
+width:40%!important;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz78-2 td:nth-child(3) {
+width:37%!important;
+padding:.4em!important;
+vertical-align:top!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+
+td.vm{
+vertical-align:middle!important;
+}
+
+table#pz54-4 {
+width:100%!important;
+font-size:small;
+border:thin solid black!important;
+margin:.3em 0em 1.5em 0em!important;
+border-collapse:collapse!important;
+}
+table#pz54-4 td {
+width:33.33%!important;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+
+table#pz38-2 {
+width:100%!important;
+font-size:small;
+border:thin solid black!important;
+margin:.5em 0em 2em 0em!important;
+border-collapse:collapse!important;
+}
+table#pz38-2 td {
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz38-2 td:nth-child(1) {
+width:15%!important;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz38-2 td:nth-child(2) {
+width:21.5%;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz38-2 td:nth-child(3) {
+width:21.5%;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz38-2 td:nth-child(4) {
+width:21.5%;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+table#pz38-2 td:nth-child(5) {
+width:21.5%;
+padding:.4em!important;
+vertical-align:middle!important;
+text-align:left;
+border:thin solid black!important;
+word-wrap:break-word!important;
+-webkit-hyphens:none!important;
+hyphens:none!important;
+}
+/*End of Table*/
+
+/*Box*/
+.box {
+border:thin solid black;
+width:auto;
+padding:.5em 1em .5em 1em;
+margin:0em 0em 0em 0em;
+word-wrap:break-word;
+}
+.box1 {
+border:4px solid black;
+width:auto;
+padding:.8em 1em 1em 1em;
+margin:1.5em 0em 2em 0em;
+word-wrap:break-word;
+}
+.box2 {
+border:thin solid black;
+width:auto;
+padding:.2em .2em .2em .2em;
+margin:0em 0em 1.5em 0em;
+word-wrap:break-word;
+}
+/*.box3 {}*/
+/*.box4 {}*/
+
+/*End of Box*/
+
+/*Footnote*/
+
+.footnote {
+font-size:.75em;
+text-align:left;
+text-indent:1.5em;
+margin:0.4em 0em 0em 0em;
+word-wrap:break-word;
+}
+
+.lineftn{
+border-bottom:thin solid black;
+width:40%;
+margin:1.5em 0em 1em 0em;
+}
+
+/*End of Footnote*/
+
+/*Miscellaneous*/
+
+a {
+text-decoration:none;
+}
+.underline {
+text-decoration:underline;
+}
+.smallcaps {
+font-variant:small-caps;
+text-transform:lowercase;
+}
+.dcap  {
+display:inline; 
+padding-top:8px; 
+float:left; 
+line-height:.5em; 
+font-size:28pt; 
+margin-right:.05em;
+}
+
+h1.center_aa {
+text-align: center !important;
+font-size: small;
+margin:2em 0em 0em 0em;
+font-weight:normal;
+}
+
+p.noind_aa {
+text-indent: 0em;
+margin:1em 0em 0em 0em;
+font-size: small;
+text-align: justify !important;
+}
+
+.ln1{
+border-bottom:4px solid black;
+margin:1em 2em 2em 2em;
+}
+
+.ind1 {
+font-size:small;
+text-indent:-3em;
+text-align:left;
+margin:.4em 20% 0em 3em;
+}
+.ind1t {
+font-size:small;
+text-indent:-3em;
+text-align:left;
+margin:1.5em 20% 0em 3em;
+}
+.ind1a {
+font-size:small;
+text-indent:-1.5em;
+text-align:left;
+margin:.4em 20% 0em 3em;
+}
+
+.ind2 {
+font-size:small;
+text-indent:-2em;
+text-align:left;
+margin:.4em 20% 0em 2em;
+}
+
+.ind3 {
+font-size:small;
+text-indent:0em;
+text-align:left;
+margin:.4em 0em 0em 0em;
+}
+.ind3a {
+font-size:small;
+text-indent:0em;
+text-align:right;
+margin:-1.2em 20% 0em 30%;
+}
+/* ***User:0#A#U=1*** */
+cm #CLooTA {
+font-size: 100%;
+}
