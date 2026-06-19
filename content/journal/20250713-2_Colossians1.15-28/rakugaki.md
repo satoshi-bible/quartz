@@ -1,1 +1,0 @@
-Colossians & Philemon. O'Brien. WBC. 1982
